@@ -12,4 +12,8 @@ describe 'fizzbuzz' do
     it 'retuns "fizzbuzz" when passed multiple of 15' do
         expect(fizzbuzz(30)).to eq 'fizzbuzz'
     end
+    
+    it 'returns "0" when passed 0' do
+        expect(fizzbuzz(0)).to eq '0'
+    end
 end
