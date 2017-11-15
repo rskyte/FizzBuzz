@@ -13,4 +13,7 @@ describe 'fizzbuzz' do
         expect(fizzbuzz(15)).to eq 'fizzbuzz'
     end
     
+    it 'retuns "fizzbuzz" when passed multiple of 15' do
+        expect(fizzbuzz(30)).to eq 'fizzbuzz'
+    end
 end
